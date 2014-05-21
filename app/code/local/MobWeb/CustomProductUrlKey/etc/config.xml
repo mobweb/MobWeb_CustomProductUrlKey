@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_CustomProductUrlKey>
+            <version>0.1.0</version>
+        </MobWeb_CustomProductUrlKey>
+    </modules>
+    <global>
+        <models>
+            <customproducturlkey>
+                <class>MobWeb_CustomProductUrlKey_Model</class>
+            </customproducturlkey>
+        </models>
+        <helpers>
+            <customproducturlkey>
+                <class>MobWeb_CustomProductUrlKey_Helper</class>
+            </customproducturlkey>
+        </helpers>
+        <models>
+            <MobWeb_CustomProductUrlKey>
+                <class>MobWeb_CustomProductUrlKey_Model</class>
+            </MobWeb_CustomProductUrlKey>
+            <catalog>
+                <rewrite>
+                    <product_attribute_backend_urlkey>MobWeb_CustomProductUrlKey_Model_Product_Attribute_Backend_Urlkey</product_attribute_backend_urlkey>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+ </config>

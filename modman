@@ -1,0 +1,6 @@
+app/code/local/MobWeb/CustomProductUrlKey app/code/local/MobWeb/CustomProductUrlKey/
+
+app/etc/modules/MobWeb_CustomProductUrlKey.xml app/etc/modules/MobWeb_CustomProductUrlKey.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
