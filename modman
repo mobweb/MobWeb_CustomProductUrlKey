@@ -1,4 +1,4 @@
-app/code/local/MobWeb/CustomProductUrlKey app/code/local/MobWeb/CustomProductUrlKey/
+app/code/community/MobWeb/CustomProductUrlKey app/code/community/MobWeb/CustomProductUrlKey/
 
 app/etc/modules/MobWeb_CustomProductUrlKey.xml app/etc/modules/MobWeb_CustomProductUrlKey.xml
 

@@ -3,7 +3,7 @@
     <modules>
         <MobWeb_CustomProductUrlKey>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </MobWeb_CustomProductUrlKey>
     </modules>
 </config>
