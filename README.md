@@ -10,7 +10,7 @@ Install using [colinmollenhour/modman](https://github.com/colinmollenhour/modman
 
 ## Configuration
 
-No configuration available. To set up your custom URL key generation logic, open the file `app/code/community/MobWeb/CustomProductUrlKey/Model/Product/Attribute/Backend/Urlkey.php` and add your custom logic at line 15. Save your custom URL key value in the`$urlKey`value.
+No configuration available. To set up your custom URL key generation logic, open the file `app/code/community/MobWeb/CustomProductUrlKey/Model/Product/Attribute/Backend/Urlkey.php` and add your custom logic at line 17. Save your custom URL key value in the`$urlKey`value.
 
 ## Questions? Need help?
 
