@@ -2,9 +2,15 @@
 
 A simple Magento extension that allows to dynamically modify a product's URL key before the product is saved.
 
+Example: If you create a new product with a name of "My Product", the automatically generated URL key for that product would be "my-product". With this extension, you can use another product attribute to create the URL key, for example the product's SKU or its manufacturer.
+
 ## Installation
 
 Install using [colinmollenhour/modman](https://github.com/colinmollenhour/modman/).
+
+## Configuration
+
+No configuration available. To set up your custom URL key generation logic, open the file `app/code/community/MobWeb/CustomProductUrlKey/Model/Product/Attribute/Backend/Urlkey.php` and add your custom logic at line 15. Save your custom URL key value in the`$urlKey`value.
 
 ## Questions? Need help?
 
